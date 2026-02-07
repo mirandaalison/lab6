@@ -1,7 +1,6 @@
-
 export function factorial(n) {
   if (n < 0) {
-    throw new Error('El factorial no está definido para números negativos');
+    throw new Error("El factorial no está definido para números negativos");
   }
   if (n === 0 || n === 1) {
     return 1;
@@ -13,7 +12,7 @@ export function factorial(n) {
 
 export function fibonacci(n) {
   if (n < 0) {
-    throw new Error('La posición debe ser un número no negativo');
+    throw new Error("La posición debe ser un número no negativo");
   }
   if (n === 0) {
     return 0;
