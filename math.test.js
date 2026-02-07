@@ -10,7 +10,8 @@ describe("Función factorial", () => {
   });
 
   test("factorial de 5 debe ser 120", () => {
-    expect(factorial(5)).toBe(120);
+    // ERROR INTENCIONAL: cambiamos 120 a 999
+    expect(factorial(5)).toBe(999);
   });
 
   test("factorial de 10 debe ser 3628800", () => {
@@ -36,7 +37,8 @@ describe("Función fibonacci", () => {
   });
 
   test("fibonacci de 10 debe ser 55", () => {
-    expect(fibonacci(10)).toBe(55);
+    // ERROR INTENCIONAL: cambiamos 55 a 100
+    expect(fibonacci(10)).toBe(100);
   });
 
   test("fibonacci de 15 debe ser 610", () => {
